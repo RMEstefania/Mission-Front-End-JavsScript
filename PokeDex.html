@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="./PokeDex.css">
+    
+</head>
+<body>
+    <h1 class="Pokedex">Mi PokeDex</h1>
+    <br><br>
+    <form action="" onsubmit="Buscar(event)">
+        <input type="text" name="Pokemon" autocomplete="off" placeholder="Pokemon" class="Caja"> <button onclick="Buscar()" class="Boton">Pokemon</button>
+    </form>
+    <br><br>
+    <div Ficha class="Ficha">
+        <div class="Contenedor"></div>
+        <div Nombre class="Nombre">PokeDex</div>
+        <div IC class="Imagen">
+            <img Imagen src="./Pokebola.jpg" class="Pokebola"/>
+        </div>
+        <br>
+        <br>
+        <div Num class="Numero">N°</div>
+        <div Tipo class="Tipo">Datos</div>
+        <div Estad class="Estad"></div>    
+    </div>
+</body>
+<footer>
+    <script src="./PokeDex.js"></script>
+</footer>
+</html>
